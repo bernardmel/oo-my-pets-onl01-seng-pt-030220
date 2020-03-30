@@ -10,6 +10,10 @@ class Owner
     @species = "human"
   end
 
+  def self.name
+    @name = name
+  end
+  
   def self.all
     @@all
   end
