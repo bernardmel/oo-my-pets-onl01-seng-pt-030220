@@ -70,3 +70,6 @@ end
 
 # pets.collect do |pet|
 #   pets.mood = "nervous"
+
+# @pets.each do |pet|
+#   pet.mood = "nervous"
