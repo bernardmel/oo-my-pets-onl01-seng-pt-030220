@@ -11,7 +11,7 @@ class Owner
     @name = name
     @@all << self
     @species = "human"
-    @cats << self
+    @cats = cats
   end
 
   def say_species
