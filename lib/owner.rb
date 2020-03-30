@@ -41,4 +41,5 @@ class Owner
 
   def buy_cat(new)
     new << Cat.select.new
+  end
 end
