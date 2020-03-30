@@ -35,9 +35,6 @@ class Owner
     Cat.all
   end
 
-  end
-
-
 
 
 end
