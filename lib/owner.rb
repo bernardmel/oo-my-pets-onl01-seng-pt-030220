@@ -48,6 +48,6 @@ class Owner
   def walk_dogs
     Dog.self = "happy"
     end
-  end
+
 
 end
