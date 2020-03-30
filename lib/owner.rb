@@ -32,7 +32,7 @@ class Owner
   end
 
   def self.owner
-    @@owner 
+    @@owner << Cat.all
   end
 
 
