@@ -12,7 +12,7 @@ class Owner
     @name = name
     @@all << self
     @species = "human"
-  
+
   end
 
   def say_species
@@ -61,8 +61,7 @@ end
 end
 
 def sell_pets
-  @pets.all do |pet|
-    pets.mood = "nervous"
+  
   end
 end
 end
