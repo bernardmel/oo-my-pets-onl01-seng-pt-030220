@@ -19,7 +19,7 @@ class Owner
   end
 
   def self.all
-    @@all.returns
+    @@all.return
   end
 
 end
