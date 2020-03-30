@@ -4,7 +4,7 @@ class Owner
   attr_reader :name, :species
 
   @@all = []
-
+  @@dogs = []
 
   def initialize(name)
     @name = name
@@ -45,7 +45,7 @@ class Owner
   end
 
   def walk_dogs
-    dog = Dog.self {|dog| dog.owners == "happy"}
+    # dog = Dog.self {|dog| dog.owners == "happy"}
   end
 
 end
