@@ -4,5 +4,5 @@ class Cat
     @name = name
     @Owner = Owner
   end
-  
+
 end
