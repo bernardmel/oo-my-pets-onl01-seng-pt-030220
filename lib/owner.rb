@@ -13,21 +13,6 @@ class Owner
   def self.name
     @name = name
   end
-  
-  def self.all
-    @@all
-  end
 
-  def say_species
-    "I am a human."
-  end
-
-  def self.count
-   @@all.count
- end
-
- def self.reset_all
-   @@all.clear
- end
 
 end
