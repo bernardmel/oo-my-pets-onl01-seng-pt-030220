@@ -1,3 +1,5 @@
+require "pry"
+
 class Owner
   # code goes here
 
@@ -45,6 +47,7 @@ class Owner
   end
 
   def walk_dogs
+    binding.pry
     # dog = Dog.self {|dog| dog.owners == "happy"}
   end
 
