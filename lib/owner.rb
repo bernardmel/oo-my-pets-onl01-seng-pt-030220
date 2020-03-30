@@ -31,9 +31,6 @@ class Owner
     @@all.clear
   end
 
-  def self.Cat
-
-  end
 
 
 
