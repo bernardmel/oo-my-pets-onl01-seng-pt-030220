@@ -7,11 +7,11 @@ class Owner
 
   @@all = []
 
-  def initialize(name, pets = {:cats==>[]})
+  def initialize(name, cats
     @name = name
     @@all << self
     @species = "human"
-    @pets = pets
+    @cats = cats
   end
 
   def say_species
@@ -32,7 +32,7 @@ class Owner
 
   def self.pets
     @pets = pets
-  end 
+  end
 
 
 
