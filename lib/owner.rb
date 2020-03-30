@@ -59,7 +59,3 @@ class Owner
 
 
 end
-
-
-
-#somthing
