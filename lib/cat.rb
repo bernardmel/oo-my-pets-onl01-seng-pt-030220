@@ -11,7 +11,7 @@ class Cat
     @mood = "nervous"
   end
 
-  def self.all 
+  def cat.all
     @@all
   end
 
