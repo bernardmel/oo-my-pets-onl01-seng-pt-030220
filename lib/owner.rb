@@ -7,11 +7,11 @@ class Owner
 
   @@all = []
 
-  def initialize(name, cats)
+  def initialize(name)
     @name = name
     @@all << self
     @species = "human"
-    @cats = cats
+    @cats << self
   end
 
   def say_species
