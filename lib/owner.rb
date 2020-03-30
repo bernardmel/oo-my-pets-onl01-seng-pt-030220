@@ -40,6 +40,6 @@ class Owner
   end
 
   def buy_cat
-    Cat.new 
+    Cat.new.self
   end
 end
