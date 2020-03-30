@@ -74,9 +74,7 @@ def sell_pets
   end
 
   def list_pets
-    dog.print.all
-  end
-  cat.print.all
+  @@all
 end
 end
 
