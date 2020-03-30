@@ -10,7 +10,7 @@ class Owner
     @name = name
     @@all << self
     @species = "human"
-    @dog = dog 
+    @dog = dog
   end
 
   def say_species
@@ -46,9 +46,9 @@ class Owner
   end
 
   def walk_dogs
-    @pets[:dogs].each do |dog|
-      dog.mood = "happy"
-    end
+    dog = Dog.self{|dog| dog.owners == "happy"}
+  end
+
   end
 
 
