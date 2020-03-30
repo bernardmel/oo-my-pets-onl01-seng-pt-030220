@@ -1,3 +1,6 @@
+require "pry"
+
+
 class Dog
   # code goes here
   attr_accessor :owner, :mood
@@ -11,7 +14,7 @@ class Dog
     @mood = "nervous"
     @@all << self
   end
-
+binding.pry
   def self.all
     @@all
   end
