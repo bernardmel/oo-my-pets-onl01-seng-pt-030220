@@ -61,6 +61,7 @@ end
 end
 
 def sell_pets
+  pets.each do |pet|
 
 end
 
