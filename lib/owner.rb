@@ -74,9 +74,7 @@ def sell_pets
   end
 
   def list_pets
-    dog.each.
-  end
-  cat.each.size
+
   end
 end
 
