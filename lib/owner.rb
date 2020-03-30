@@ -74,7 +74,7 @@ def sell_pets
   end
 
   def list_pets
-  "I have #{@owner.dogs.count} dogs, and #{@owner.cats.count} cats."
+  "I have #{dogs.count} dogs, and #{cats.count} cats."
 end
 end
 
