@@ -49,7 +49,4 @@ class Owner
     dog = Dog.self{|dog| dog.owners == "happy"}
   end
 
-  end
-
-
 end
