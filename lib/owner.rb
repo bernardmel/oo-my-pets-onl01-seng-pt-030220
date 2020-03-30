@@ -3,7 +3,7 @@ require "pry"
 class Owner
   # code goes here
 
-  attr_reader :name, :species, :pets
+  attr_reader :name, :species
 
   @@all = []
 
@@ -12,7 +12,7 @@ class Owner
     @name = name
     @@all << self
     @species = "human"
-    @pets = pets
+  
   end
 
   def say_species
