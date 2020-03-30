@@ -74,7 +74,6 @@ def sell_pets
   end
 
   def list_pets
-    Dog.size
   "I have #{@owner.dogs.count} dogs, and #{@owner.cats.count} cats."
 end
 end
