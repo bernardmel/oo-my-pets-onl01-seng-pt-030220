@@ -5,9 +5,13 @@ class Owner
   @@all = []
 
   def initialize(name)
-    @name = name.freeze
+    @name = name
     @@all << self
 
   end
 
+  def self.name
+    @name = name.freeze
+  end
+  
 end
