@@ -10,8 +10,6 @@ class Owner
 
   end
 
-  def self.name
-    @name = name.freeze
-  end
+
 
 end
