@@ -62,10 +62,11 @@ end
 
 def sell_pets
   pets.collect do |pet|
-    pets.mood = "nervous"
+    pet.mood = "nervous"
   end
 end
-
-
-
 end
+
+
+# pets.collect do |pet|
+#   pets.mood = "nervous"
