@@ -1,6 +1,6 @@
 class Cat
   # code goes here
-  def initialize(name, owner)
+  def initialize(name)
     @name = name
     @Owner = Owner
   end
