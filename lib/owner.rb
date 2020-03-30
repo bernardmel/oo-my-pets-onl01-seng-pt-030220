@@ -61,7 +61,7 @@ end
 end
 
 def sell_pets
-  pets.collect.each do |pet|
+  pets.all do |pet|
     pet.mood = "nervous"
   end
 end
