@@ -12,7 +12,7 @@ class Owner
     @name = name
     @@all << self
     @species = "human"
-    
+
   end
 
   def say_species
@@ -31,7 +31,11 @@ class Owner
     @@all.clear
   end
 
+  def cats
+    Cat.all
+  end
 
+  end
 
 
 
