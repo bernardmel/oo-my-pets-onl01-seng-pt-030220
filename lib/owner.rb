@@ -13,5 +13,5 @@ class Owner
   def self.name
     @name = name.freeze
   end
-  
+
 end
