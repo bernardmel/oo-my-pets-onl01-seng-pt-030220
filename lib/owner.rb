@@ -10,7 +10,7 @@ class Owner
     @name = name
     @@all << self
     @species = "human"
-    @dog = dog
+    @dogs = dogs
   end
 
   def say_species
