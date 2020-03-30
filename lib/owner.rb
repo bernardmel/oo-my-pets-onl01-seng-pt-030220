@@ -7,11 +7,11 @@ class Owner
 
   @@all = []
 
-  def initialize(name)
+  def initialize(name, pets = {:cats==>[]})
     @name = name
     @@all << self
     @species = "human"
-
+    @pets = pets
   end
 
   def say_species
@@ -29,5 +29,11 @@ class Owner
   def self.reset_all
     @@all.clear
   end
+
+
+  def
+
+
+
 
 end
