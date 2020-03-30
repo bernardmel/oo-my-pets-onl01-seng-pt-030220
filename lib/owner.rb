@@ -30,9 +30,6 @@ class Owner
     @@all.clear
   end
 
-  def self.pets
-    @pets = pets
-  end
 
 
 
