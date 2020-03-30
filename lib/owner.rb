@@ -1,6 +1,6 @@
 class Owner
   # code goes here
-  attr_accessor :name, :species 
+  attr_accessor :name, :species
 
   @@all = []
 
@@ -13,5 +13,8 @@ class Owner
   def self.all
     @@all
   end
+
+  def say_species
+    "I am a human."
 
 end
