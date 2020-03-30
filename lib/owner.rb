@@ -23,7 +23,7 @@ class Owner
   end
 
   def self.count
-    @@all
+    @@all.count
   end
 
 end
