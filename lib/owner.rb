@@ -40,6 +40,6 @@ class Owner
   end
 
   def buy_cat
-    Cat.all.select{|cats| cats.owner == self}
+    Cat.self << buy_cat.new
   end
 end
