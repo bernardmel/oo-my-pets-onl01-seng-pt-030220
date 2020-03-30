@@ -77,11 +77,3 @@ def sell_pets
   "I have #{dogs.count} dog(s), and #{cats.count} cat(s)."
 end
 end
-
-
-
-# pets.collect do |pet|
-#   pets.mood = "nervous"
-
-# @pets.each do |pet|
-#   pet.mood = "nervous"
