@@ -10,9 +10,4 @@ class Owner
 
   end
 
-  def self.name
-    @name = name
-  end
-
-
 end
